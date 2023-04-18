@@ -25,6 +25,4 @@ git init $gitproject
 GITWORKDIR=$PWD/$gitproject
 GITDIR=$PWD/$gitproject/.git
 git --work-tree=$GITWORKDIR --git-dir=$GITDIR remote add origin $REMOTEURL
-# cannot push new empty git repo
-#git --work-tree=$GITWORKDIR --git-dir=$GITDIR push --set-upstream origin master
 set +x
